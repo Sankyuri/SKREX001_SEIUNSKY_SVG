@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="512" height="512" viewBox="0 0 512 512">
+    <title>セイウンスカイ(ウマ娘).svg</title>
+
+
+    <!-- canvas bounding -->
+    <rect x="0" y="0" width="512" height="512"
+        stroke="red" stroke-width="1" fill="none" />
+  
+
+    <!-- ******** Defines ******** -->
+
+    <!-- cheek gradation -->
+    <radialGradient id="grad_cheek" cx="50%" cy="50%">
+        <stop offset="0%"   stop-color="lightpink" stop-opacity="0.4" />
+        <stop offset="80%"  stop-color="lightpink" stop-opacity="0.1" />
+        <stop offset="100%" stop-color="lightpink" stop-opacity="0.0" />
+    </radialGradient>
+
+
+
+
+    <!-- eye iris gradation -->
+    <radialGradient id="grad_eye_iris1"
+             cx="50%" cy="50%" fx="50%" fy="55%">
+        <stop offset="0%"   stop-color="black"        />
+        <stop offset="28%"  stop-color="midnightblue" />
+        <stop offset="38%"  stop-color="deepskyblue"  />
+        <stop offset="52%"  stop-color="deepskyblue"  />
+        <stop offset="62%"  stop-color="blue"         />
+        <stop offset="72%"  stop-color="deepskyblue"  />
+        <stop offset="100%" stop-color="deepskyblue"  />
+    </radialGradient>
+
+
+    <linearGradient id="grad_eye_iris2"
+             x1="50%" y1="0%" x2="50%" y2="100%">
+        <stop offset="0%"   stop-color="midnightblue" stop-opacity="1.0" />
+        <stop offset="30%"  stop-color="midnightblue" stop-opacity="1.0" />
+        <stop offset="50%"  stop-color="midnightblue" stop-opacity="0.4" />
+        <stop offset="65%"  stop-color="deepskyblue"  stop-opacity="0.5" />
+        <stop offset="80%"  stop-color="lightcyan"    stop-opacity="0.6" />
+        <stop offset="90%"  stop-color="lightcyan"    stop-opacity="1.0" />
+        <stop offset="100%" stop-color="lightcyan"    stop-opacity="0.8" />
+    </linearGradient>
+
+
+    <radialGradient id="grad_eye_highlight1"
+             cx="50%" cy="50%" fx="50%" fy="50%">
+        <stop offset="0%"   stop-color="orangered" stop-opacity="0.9"/>
+        <stop offset="70%"  stop-color="orangered" stop-opacity="0.9"/>
+        <stop offset="100%" stop-color="orangered" stop-opacity="0.0"/>
+    </radialGradient>
+
+
+    <radialGradient id="grad_eye_highlight2"
+             cx="50%" cy="50%" fx="50%" fy="50%">
+        <stop offset="0%"   stop-color="snow" stop-opacity="1.0"/>
+        <stop offset="70%"  stop-color="snow" stop-opacity="1.0"/>
+        <stop offset="100%" stop-color="snow" stop-opacity="0.0"/>
+    </radialGradient>
+
+
+
+
+
+
+
+
+    <!-- ******** Hair (back and right) ******** -->
+    
+    <!-- hair back -->
+    <path fill="#8d9992" stroke="#576967" stroke-width="1.4" d="
+        M 325 165
+        C 265 100 120 150 160 310
+          162 300 166 290 170 285
+          170 290 170 300 180 340
+          190 330 194 320 200 300
+          200 300 202 340 205 350
+          216 342 222 335 230 320
+          230 330 235 350 240 355
+          248 350 255 340 256 330
+          260 345 264 352 270 355
+          278 350 280 340 280 330
+          282 340 290 350 295 355
+          300 350 305 335 310 320
+          315 325 319 332 320 340
+          332 330 344 308 347 286
+          350 295 350 305 345 315
+          380 280 380 175 325 165
+    " />
+
+
+    <!-- hair right -->
+    <path fill="#c1cfc6" stroke="#7e9693" stroke-width="1.4" d="
+        M 325 165
+        C 270 108 150 130 140 290
+          155 275 160 265 170 250
+          170 270 178 285 190 310
+          190 280 190 270 200 260
+        L 270 260
+    " />
+
+
+
+
+
+
+
+
+    <!-- ******** Skin ******** -->
+    
+    <!-- neck -->
+    <path fill="#e2b6a4" stroke="#805c47" stroke-width="1.4" d="
+        M 300 360
+        C 295 340 295 320 300 320
+        L 230 320
+        C 232 340 230 360 220 365
+    " />
+
+
+    <!-- head base -->
+    <path fill="#ffebcc" stroke="#805c47" stroke-width="1.4" d="
+        M 256 150
+        C 380 130 370 330 250 340
+          230 334 220 330 210 323
+          190 310 185 300 190 270
+          195 230 170 183 230 160
+          245 153 250 152 256 150
+    " />
+
+    <!-- cheek -->
+    <ellipse cx="200" cy="273" rx="14" ry="10"
+            fill="url(#grad_cheek)" />
+
+    <ellipse cx="305" cy="289" rx="12" ry="8"
+            fill="url(#grad_cheek)" />
+
+    <ellipse cx="245" cy="276" rx="8" ry="7"
+            fill="url(#grad_cheek)" />
+
+
+
+
+
+
+
+
+    <!-- ******** Hair (left) ******** -->
+    
+    <!-- hair left -->
+    <path fill="#c1cfc6" stroke="#7e9693" stroke-width="1.4" d="
+        M 345 280
+        C 340 300 322 330 290 338
+          295 335 302 325 305 320
+          301 325 298 327 294 328
+          310 310 315 290 315 285
+          312 288 305 290 296 292
+          320 278 340 240 330 200
+        L 350 220
+    " />
+
+
+    <!-- hair left shadow -->
+    <path fill="#8d9993" d="
+        M 350 255
+        C 345 265 335 270 330 265
+        L 330 200
+          350 200
+    " />
+
+
+    <!-- hair bangs gap fill -->
+    <path fill="#c1cfc6" d="
+        M 330 172
+        L 314 158
+          300 150
+          280 145
+          240 145
+          190 180
+    " />
+
+
+
+
+
+
+
+
+    <!-- ******** Ear (right) ******** -->
+    
+    <!-- ear right fill -->
+    <path fill="#7fcf83" d="
+        M 200 160
+        C 185 120 195  80 210  70
+          211  69 214  70 215  75
+          225 100 230 135 240 155
+    " />
+
+
+    <!-- ear right design 1 -->
+    <path fill="honeydew" opacity="0.25" d="
+        M 196 115
+        L 205 136
+          222 140
+          229 125
+          223 100
+          210  90
+    " />
+
+
+    <!-- ear right design 2 -->
+    <path fill="honeydew" opacity="0.65" d="
+        M 205  74
+        L 220  90
+          214  71
+          211  70
+    " />
+
+
+    <a xlink:href="https://umamusume.jp/character/detail/?name=seiunsky" target="_blank">
+
+
+        <!-- ear right design 3 -->
+        <path fill="honeydew"  stroke="seagreen" stroke-width="1.0" opacity="0.5" d="
+            M 192 123
+            C 196 125 202 123 203 118
+              212 117 212 109 207 107
+              207 102 200 100 197 105
+              197 105 195 103 194 104
+
+            M 227 114
+            C 223 113 217 116 217 121
+              211 120 209 127 213 129
+              211 134 215 138 220 134
+              223 138 228 138 233 136
+        " />
+
+
+        <!-- ear right design 4 -->
+        <g opacity="0.5">
+            <!-- fill -->
+            <path fill="honeydew" d="
+                M 196  92
+                C 198  95 205  95 207  92
+                  209  95 215  95 217  92
+                  218  94 219  94 222  94
+                L 214  71 211  70 205  74
+            " />
+            <!-- stroke -->
+            <path fill="none"  stroke="seagreen" stroke-width="1.0" d="
+                M 196  92
+                C 198  95 205  95 207  92
+                  209  95 215  95 217  92
+                  218  94 219  94 222  94
+            " />
+        </g>
+
+    </a>
+
+
+    <!-- ear right stroke -->
+    <path fill="none" stroke="#805c47" stroke-width="1.4" d="
+        M 200 160
+        C 185 120 195  80 210  70
+          211  69 214  70 215  75
+          225 100 230 135 240 155
+    " />
+
+
+
+    <!-- ear right cloud 1 -->
+    <path fill="aliceblue" stroke="#805c47" stroke-width="1.4" d="
+        M 195 170
+        C 170 178 175 152 185 150
+          183 145 188 135 194 136
+        L 208 165
+
+        M 245 155
+        C 270 135 235 110 228 140
+    " />
+
+
+    <!-- ear right cloud shade 1 -->
+    <path fill="lightgray" d="
+        M 200 170
+        C 190 168 190 158 195 150
+          185 153 183 158 200 175
+
+        M 186 150
+        C 192 144 196 148 196 150
+          195 150 193 148 186 150
+    " />
+    
+
+    <!-- ear right cloud 2 -->
+    <path fill="azure" stroke="#805c47" stroke-width="1.4" d="
+        M 200 170
+        C 190 168 190 158 195 150
+          200 140 220 135 220 145
+          220 125 250 130 245 150
+    " />
+
+
+    <!-- ear right cloud shade 2 -->
+    <path fill="lightgray" d="
+        M 236 132
+        C 250 135 255 148 240 153
+          245 148 245 143 236 132
+    " />
+
+
+
+
+    <!-- hair bangs gap fill 2 -->
+    <path fill="#c1cfc6" d="
+        M 190 173
+        C 210 158 240 145 270 155
+        L 240 170
+    " />
+
+
+    <!-- ear right cloud by circles -->
+    <!--
+    <circle cx="200" cy="100" r="5" fill="#c3ecc6" />
+    <circle cx="190" cy="162" r="9" fill="#805c47" />
+    <circle cx="190" cy="162" r="8" fill="whitesmoke" />
+    <circle cx="194" cy="154" r="8" fill="#805c47" />
+    <circle cx="195" cy="155" r="8" fill="whitesmoke" />
+    <circle cx="199" cy="157" r="8" fill="#805c47" />
+    <circle cx="200" cy="158" r="8" fill="white" />
+    <circle cx="225" cy="148" r="9" fill="#805c47" />
+    <circle cx="225" cy="148" r="8" fill="whitesmoke" />
+    <circle cx="221" cy="153" r="8" fill="lightgray" />
+    <circle cx="204" cy="154" r="8" fill="#805c47" />
+    <circle cx="204" cy="155" r="8" fill="white" />
+    <circle cx="215" cy="150" r="8" fill="#805c47" />
+    <circle cx="215" cy="151" r="8" fill="white" />
+    -->
+
+
+
+
+
+
+
+
+    <!-- ******** Ear (left) ******** -->
+    
+    <!-- ear left under gap fill -->
+    <path fill="#8d9993" d="
+        M 345 180
+        L 332 170
+          324 166
+          312 165
+          308 170
+          340 200
+    " />
+
+
+    <!-- ear left fill -->
+    <path fill="#c1cfc6" d="
+        M 305 160
+        C 330 110 350 125 380 110
+          381 109 383 110 382 112
+          370 150 340 165 320 168
+        L 308 167
+    " />
+
+
+    <!-- ear left inner fill -->
+    <path fill="#9bb0b3" stroke-width="1.4" d="
+        M 325 143
+        C 320 150 320 150 315 165
+          320 162 330 162 335 160
+          336 155 339 150 340 145
+          335 143 330 142 325 143
+    " />
+
+
+    <!-- ear left inner shadow -->
+    <path fill="#8d9993" stroke-width="1.4" opacity="0.7" d="
+        M 355 125
+        C 340 128 320 140 314 168
+        L 320 168
+        C 330 167 344 161 354 153
+          345 156 332 156 328 155
+          330 147 332 142 334 138
+          340 134 346 130 355 125
+    " />
+    
+    
+
+
+    <!-- ear left inner stroke -->
+    <path fill="none" stroke="#728885" stroke-width="1.4" d="
+        M 355 125
+        C 340 128 320 140 315 165
+          320 162 330 162 335 160
+          336 155 339 150 340 145
+          335 143 330 142 325 143
+    " />
+
+
+    <!-- ear left stroke -->
+    <path fill="none" stroke="#7e9693" stroke-width="1.4" d="
+        M 305 160
+        C 330 110 350 125 380 110
+          381 109 383 110 382 112
+          370 150 340 165 320 168
+    " />
+
+
+
+
+
+
+
+
+    <!-- ******** Bangs and ornament ******** -->
+    
+    <!-- hair front -->
+    <path fill="#c1cfc6" stroke="#7e9693" stroke-width="1.4" d="
+        M 190 173
+        C 170 190 160 260 163 280
+          178 260 190 240 205 205
+          200 220 199 228 200 245
+          210 225 220 210 230 190
+          222 205 222 220 223 240
+          228 235 232 230 234 225
+          234 235 232 250 228 255
+          250 245 260 230 270 210
+          268 220 262 230 260 234
+          275 230 285 215 295 190
+          293 210 295 235 300 248
+          305 240 308 230 310 215
+          318 240 320 270 323 290
+          338 255 340 240 340 220
+          340 240 338 250 336 260
+          342 254 346 245 347 230
+          348 240 350 250 353 260
+          360 210 340 180 310 168
+    " />
+
+
+
+
+    <!-- ornament clip -->
+    <path fill="aliceblue" stroke="silver" d="
+        M 313 235
+        L 348 225
+          349 228
+          314 238
+        Z
+    " />
+
+
+    <!-- ornament flower petal outer -->
+    <path fill="gold" stroke="#6e5b4e" stroke-width="0.9" d="
+        M 311   234
+        L 314   233
+          311   232
+          311.8 227
+          315   227
+          313   224.3
+          317   220
+          320   222
+          320   218
+          325   217
+          325.5 221
+          327.3 217.8
+          332   220.5
+          330.8 223.3
+          333.5 222
+          336   226
+          334   228
+          336.8 228
+          337.5 233.3
+          335   234
+          337.5 235
+          336   241
+          333.5 240.5
+          335   243
+          331.5 247
+          329   244.5
+          329   248
+          324   249
+          323   245.5
+          321   248.4
+          317   245.8
+          317.5 242.8
+          315   244
+          312.6 240
+          315   238
+          312   238.5
+        Z
+    " />
+
+
+    <!-- ornament flower petal inner -->
+    <path fill="gold" stroke="#6e5b4e" stroke-width="0.6" d="
+        M 317.5 232
+        L 320   231.8
+          318   230
+          320.3 226.3
+          322.3 227.5
+          322.5 224.8
+          326.2 224.5
+          326.5 227.5
+          328.5 226
+          331   229.2
+          329.5 231
+          331.5 231
+          331.8 234.8
+          329.8 235.2
+          331.5 236.8
+          329.5 239.8
+          327.3 238.5
+          327.5 241
+          323.5 241.5
+          323   239.5
+          321   241
+          318.5 238
+          320   236
+          317.5 236
+        Z
+    " />
+
+
+    <!-- ornament flower center circle-->
+    <ellipse cx="294" cy="271" rx="2.4" ry="3"
+          fill="#ff9e1e" stroke="#6e5b4e" stroke-width="0.6"
+          transform="rotate(-7)" />
+    <ellipse cx="225.3" cy="328.5" rx="0.9" ry="0.6"
+          fill="lemonchiffon"
+          transform="rotate(-20)" />
+
+
+
+
+
+
+
+
+    <!-- ******** Mouth ******** -->
+    
+    <!-- mouth fill -->
+    <path fill="firebrick" d="
+        M 250 320
+        C 235 320 230 295 240 300
+          248 303 255 298 263 300
+          275 303 267 320 255 320
+    " />
+
+
+    <!-- mouth tongue -->
+    <path fill="lightsalmon" d="
+        M 250 320
+        C 233 320 235 300 240 300
+          248 303 255 298 263 300
+          272 305 268 320 255 320
+    " />
+
+
+    <!-- mouth stroke -->
+    <path fill="none" stroke="#6e5b4e" stroke-width="1.0" d="
+        M 250 320
+        C 235 320 230 295 240 300
+          248 303 255 298 263 300
+          275 303 267 320 255 320
+    " />
+
+
+
+
+
+
+
+
+    <!-- ******** Nose and Cheek ******** -->
+    
+    <!-- nose -->
+    <!--path fill="firebrick" stroke="firebrick" opacity="0.8" d="
+        M 241 277
+        L 240 277 239 280
+        Z
+    " /-->
+
+    <text x="237" y="278" font-family="Meiryo UI"
+        fill="#42190f" stroke="firebrick" stroke-width="0.3" opacity="0.8">
+      ,
+    </text>
+
+
+
+
+
+
+
+
+    <!-- ******** Eyebrows and double-edge ******** -->
+    
+    <!-- eyebrow -->
+    <path fill="#c1cfc6" stroke="#7e9693" stroke-width="0.8" opacity="0.8" d="
+        M 192 218
+        C 210 212 223 211 230 218
+          220 211 206 215 192 218
+
+        M 270 222
+        C 285 217 303 222 315 228
+          302 223 286 219 270 222
+    " />
+
+    
+    <!-- double-edge -->
+    <path fill="firebrick" opacity="0.6" d="
+        M 206 241
+        C 215 239 224 240 226 248
+          222 240 215 241 207 241
+
+        M 275 250
+        C 280 244 295 246 305 254
+          293 246 280 246 275 250
+    " />
+
+
+
+
+
+
+
+
+    <!-- ******** Eyes ******** -->
+    
+    <!-- eye fill -->
+    <path fill="snow" stroke="none" stroke-opacity="0.5" d="
+        M 195 252
+        C 196 262 198 267 203 271
+          206 274 212 275 218 275
+          228 271 229 261 228 256
+          220 249 205 248 195 252
+
+        M 300 282
+        C 297 283 294 282 292 282
+          281 281 276 268 275 259
+          285 253 300 256 313 265
+          310 273 306 279 300 282
+    " />
+
+    
+    <!-- eye fill shadow -->
+    <path fill="#dfdcdc" stroke="none" opacity="0.7" d="
+        M 195 252
+        L 196 260
+        C 208 255 220 258 228 262
+        L 228 256
+        C 220 249 205 248 195 252
+
+        M 313 265
+        L 310 272
+        C 300 263 290 260 276 264
+        L 275 259
+        C 285 253 300 256 313 265
+    " />
+
+
+
+
+    <!-- iris right -->
+    <g id="eye_iris">
+        <ellipse cx="218" cy="262" rx="9" ry="13"
+                fill="url(#grad_eye_iris1)" />
+        <ellipse cx="218" cy="262" rx="9" ry="13"
+                fill="url(#grad_eye_iris2)" stroke="midnightblue" stroke-width="1.0" />
+    </g>
+    <ellipse cx="211" cy="260" rx="1.5" ry="2.4"
+            fill="url(#grad_eye_highlight1)"  />
+    <ellipse cx="226" cy="261" rx="4" ry="3"
+            fill="url(#grad_eye_highlight2)"  />
+
+
+    <!-- iris left -->
+    <use x="74" y="6" xlink:href="#eye_iris" />
+    <ellipse cx="285" cy="265" rx="1.5" ry="2.4"
+            fill="url(#grad_eye_highlight1)"  />
+    <ellipse cx="301" cy="269" rx="4" ry="3"
+            fill="url(#grad_eye_highlight2)"  />
+
+
+    
+
+    
+    <!-- eyelashes right -->
+    <path fill="#42190f" d="
+        M 203 271
+        C 197 266 195 263 194 252
+        L 196 251
+        C 196 262 198 265 203 271
+
+        M 230 258
+        C 220 251 208 249 190 254
+          205 244 220 245 230 258
+        M 228 254
+        C 215 248 205 248 192 252
+          214 241 219 245 228 254
+    " />
+
+    
+    <!-- eyelashes left -->
+    <path fill="#42190f" stroke="none" stroke-width="0.5" d="
+        M 300 282
+        C 308 278 311 273 314 265
+        L 312 265
+        C 310 272 306 278 300 282
+        
+        M 272 261
+        C 285 253 300 258 317 268
+          300 253 282 246 272 261
+        M 273 258
+        C 285 251 300 256 316 267
+          305 251 283 247 273 258
+        M 278 252
+        C 285 256 300 255 315 265
+          300 248 285 252 278 252
+    " />
+
+
+
+
+
+</svg>
+
+<!--
+    <polyline fill="none" stroke="red" points="" />
+-->
+
+
+
