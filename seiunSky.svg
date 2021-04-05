@@ -98,8 +98,8 @@
     <path fill="#c1cfc6" stroke="#7e9693" stroke-width="1.4" d="
         M 325 165
         C 270 108 150 130 140 290
-          155 275 160 265 170 250
-          170 270 178 285 190 310
+          155 275 160 265 175 250
+          175 270 178 285 190 310
           190 280 190 270 200 260
         L 270 260
     " />
@@ -221,7 +221,7 @@
     " />
 
 
-    <a xlink:href="https://umamusume.jp/character/detail/?name=seiunsky" target="_blank">
+    <a xlink:href="https://umamusume.jp/character/detail/?name=seiunsky" target="_top">
 
 
         <!-- ear right design 3 -->
@@ -443,6 +443,14 @@
           342 254 346 245 347 230
           348 240 350 250 353 260
           360 210 340 180 310 168
+    " />
+
+    
+    <!-- hair front AHOGE -->
+    <path fill="#c1cfc6" stroke="#7e9693" stroke-width="1.4" d="
+        M 257 190
+        C 250 205 235 216 208 230
+          238 221 253 212 261 203
     " />
 
 
